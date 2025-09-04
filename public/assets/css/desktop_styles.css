@@ -1,0 +1,29 @@
+@media (min-width: 600px) {
+    body {
+        font-size: var(--desktop-font-size);
+    }
+
+    .sections {
+        padding-top: var(--desktop-padding-y);
+        padding-bottom: var(--desktop-padding-y);
+    }
+    .section-1 h1 span {
+        font-size: 1.5em;
+    }
+
+    .section-1 h1 {
+        margin-top: var(--desktop-padding-y);
+        margin-bottom: var(--desktop-padding-y);
+    }
+
+    .center-ornament {
+        max-width: min(30%, 300px);
+        margin: 2em auto;
+    }
+
+    .centered-image {
+        margin-top: var(--desktop-padding-y);
+        margin-bottom: var(--desktop-padding-y);
+    }
+
+}

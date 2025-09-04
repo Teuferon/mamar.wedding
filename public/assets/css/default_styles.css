@@ -80,17 +80,31 @@
     }
 
 body {
-    background-color: #ffffff;
+    background-color: var(--color-background-light);
     color: black;
-    font-size: 16px;
-    font-family: 'Minion Pro Regular', serif;
+    font-size: var(--mobile-font-size);
+    font-family: var(--font-family-minion);
+}
+.sections {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: var(--mobile-padding-y);
+    padding-bottom: var(--mobile-padding-y);
 }
 .section-1 {
     border: 1em solid #BB2C27;
+    background-color: #ffffff;
 }
 
 .section-1 h1 {
-    color: #BB2C27;
+    color: var(--color-red-dark);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.section-1 h1 span {
+    font-size: 1.2em;
 }
 
 h1 {
@@ -103,6 +117,10 @@ h1 .left {
 h1 .center {
     margin-left: auto;
     margin-right: auto;
+    
+}
+
+h1 .center:nth-of-type(2) {
     padding-bottom: 0.3em;
 }
 h1 .right {
@@ -132,3 +150,16 @@ h1 .right {
 .intro-text {
     color: #E1A192;
 }
+
+.center-ornament {
+    max-width: 30%;
+    margin: 1em auto;
+}
+
+.centered-image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: var(--mobile-padding-y);
+    margin-bottom: var(--mobile-padding-y);
+}
+

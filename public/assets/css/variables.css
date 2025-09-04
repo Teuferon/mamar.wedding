@@ -1,0 +1,11 @@
+:root {
+    --desktop-padding-y: 2em;
+    --mobile-padding-y: 1em;
+    --desktop-font-size: 20px;
+    --mobile-font-size: 16px;
+    --color-red-dark: #BB2C27;
+    --color-background-light: #fafafa;
+    --color-background-white: #ffffff;
+    --font-family-minion: 'Minion Pro Regular', serif;
+    --font-family-mysoul: 'My Soul', cursive;
+}
