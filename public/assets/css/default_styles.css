@@ -156,6 +156,10 @@ h1 .right {
     margin: 1em auto;
 }
 
+.center-ornament.zamek {
+    max-width: 40%;
+}
+
 .centered-image {
     margin-left: auto;
     margin-right: auto;
