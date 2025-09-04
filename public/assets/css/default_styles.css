@@ -91,7 +91,14 @@ body {
     margin-right: auto;
     padding-top: var(--mobile-padding-y);
     padding-bottom: var(--mobile-padding-y);
+    border: 1em solid #BB2C27;
+    margin-bottom: 1px;
 }
+
+.sections:last-of-type {
+    margin-bottom: 0;
+}
+
 .section-1 {
     border: 1em solid #BB2C27;
     background-color: #ffffff;
@@ -105,6 +112,39 @@ body {
 
 .section-1 h1 span {
     font-size: 1.2em;
+}
+
+.section-2 {
+    border: 1em solid #BB2C27;
+    background-color: #BB2C27;
+    color: #ffffff;
+}
+
+.section-2 .harmonogram {
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.section-2 h2 {
+    color: #E1A192;
+    font-size: 4em;
+}
+
+.section-2 h3 {
+    color: #E1A192;
+    font-size: 1.5em;
+}
+
+.section-3 h2 {
+    color: var(--color-red-dark);
+    font-size: 2.5em;
+}
+.section-3 h3 {
+    color: #772022;
+    font-size: 1.2em;
+}
+.section-3 p {
+    color: #E1A192;
 }
 
 h1 {

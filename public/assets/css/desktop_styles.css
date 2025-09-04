@@ -16,6 +16,15 @@
         margin-bottom: var(--desktop-padding-y);
     }
 
+
+    .section-2 .harmonogram {
+        max-width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+
     .center-ornament {
         max-width: min(30%, 300px);
         margin: 2em auto;
