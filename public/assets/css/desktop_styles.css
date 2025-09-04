@@ -23,11 +23,16 @@
 
     .center-ornament.zamek {
         max-width: min(40%, 400px);
+        margin-bottom: 3em;
     }
 
     .centered-image {
         margin-top: var(--desktop-padding-y);
         margin-bottom: var(--desktop-padding-y);
+    }
+
+    .intro-text {
+        padding: 0;
     }
 
 }

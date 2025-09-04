@@ -149,6 +149,8 @@ h1 .right {
 
 .intro-text {
     color: #E1A192;
+    padding-top: var(--mobile-padding-y);
+    padding-bottom: var(--mobile-padding-y);
 }
 
 .center-ornament {
@@ -157,7 +159,8 @@ h1 .right {
 }
 
 .center-ornament.zamek {
-    max-width: 40%;
+    max-width: 50%;
+    margin-bottom: 2em;
 }
 
 .centered-image {
