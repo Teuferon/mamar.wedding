@@ -44,4 +44,14 @@
         padding: 0;
     }
 
+    .section-2 h2.kam-na-svatbu {
+        font-size: 4em;
+    }
+    
+    .mapy-iframe {
+        width: 70%;
+        height: 450px;
+        border: 0;
+    }
+
 }
