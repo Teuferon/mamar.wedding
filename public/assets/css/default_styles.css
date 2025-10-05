@@ -228,14 +228,13 @@ h1 .right {
 
 .section-3.dary h3 {
     text-align: center;
-    font-size: 1em;
 }
 
 .section-3.dary p {
     font-style: italic;
+    font-size: 1.2em;
 }
 
 .section-3 .dary-img {
-    border-radius: 40px;
-    border: 1px solid #BB2C27;
+    max-width: 50%;
 }
