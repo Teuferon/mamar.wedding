@@ -222,3 +222,20 @@ h1 .right {
     margin-bottom: 0.5em;
 }
 
+.section-3.dary h2 {
+    font-size: 3em;
+}
+
+.section-3.dary h3 {
+    text-align: center;
+    font-size: 1em;
+}
+
+.section-3.dary p {
+    font-style: italic;
+}
+
+.section-3 .dary-img {
+    border-radius: 40px;
+    border: 1px solid #BB2C27;
+}
